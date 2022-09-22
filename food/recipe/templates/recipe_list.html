@@ -1,0 +1,7 @@
+{% for x in list1 %}
+<div><h1><a href="/recipe_list/{{x.recipe_name}}/">{{x.recipe_name}}</a></h1>
+<p>{{x.recipe_description}}</p>
+    </div>
+{% endfor %}
+
+<a href="recipe_list/add/">ADD MY RECIPE</a>
